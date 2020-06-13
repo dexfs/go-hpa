@@ -1,0 +1,5 @@
+steps:
+  - name: 'gcr.io/cloud-builders/go:alpine'
+    args: ['test', 'squareroot']
+
+tags: ['cloud-builders-community']
